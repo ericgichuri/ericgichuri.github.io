@@ -321,14 +321,17 @@ img.KNEC{
 	width: 80px;
 	height: 90px;
 	}
+	.education{
+		height: 690px;
+	}
 	.education .pri{
-		height: 500px;
+		height: 450px;
 	}
 	.education .sec{
-		height: 500px;
+		height: 450px;
 	}
 	.education .uni{
-		height: 500px;
+		height: 450px;
 	}
 }
 
