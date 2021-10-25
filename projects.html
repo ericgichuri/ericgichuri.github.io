@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>projects</title>
+	<link rel="stylesheet" type="text/css" href="project.css">
+	<script type="text/javascript" src="index.js" defer=""></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript">
+		function askname() {
+			welmsg=document.querySelector(".welmsg")
+			welmg=prompt("Enter your name")
+			if (welmg) {
+				welmsg.innerHTML="Welcome to my projects: "+welmg
+			}else{
+				askname()
+			}
+
+		}
+	</script>
+</head>
+<body onload="askname()">
+<nav>
+<label class="logo"><span>ESS</span><label>eric softwares</label></label>
+<div>
+	<ul id="list">
+		<li><a href="index.html" class="active">Home</a></li>
+		<li><a href="index.html#education">Education</a></li>
+		<li><a href="index.html#services">Services</a></li>
+		<li><a href="index.html#portifolio">Portifolio</a></li>
+		<li><a href="index.html#projects">Projects</a></li>
+		<li><a href="index.html#Contacts">Contacts</a></li>
+	</ul>
+</div>
+<div class="menu" id="menu">
+	
+</div>
+</nav>
+<div class="main">
+	<h1 class="welmsg"></h1>
+	<h3>Here you will get my projects and get to under what they contain and how they function.These are not all projects you can also follow me on github to see all projects.</h3>
+	<h3>To request the app just call,Email or message me on my social media at the footer or bottom of the page</h3>
+
+</div>
+<div class="projects">
+	<div class="projectsholder">
+	<div class="proj">
+		<h2>Image watermark creator</h2>
+		<div class="projectcont"><label><img class="projectimages" src="images/imagewatermark/icon.png"></label><label class="description">The is a desktop application that enter or creates watermark to images. It can be used to watermark products for sell mostly for online and ecommerce products by indicating the name and price of the product
+		
+		</label></div>
+		
+	</div>
+	<div class="proj">
+		<h2>School management software</h2>
+		<div class="projectcont"><label>
+			<img class="projectimages" src="images/school/mainschool.png">
+		</label>
+	<label class="description">	
+		The is a desktop application that can be used for school management and record keeping. The software record student details,fees and examination. The app keep record of staff within the school. it is divided into modules. students,staff,examination,Finacial or Fees,store and the ptincipal who is the head of the school. The app has a login that is secure that only assigned staff can login to the software.
+		
+	</label>
+	</div>
+	</div>
+	<div class="proj">
+		<h2>Car rental or car Hire system</h2>
+		<div class="projectcont"><label>
+			<img class="projectimages" src="images/carrental/carwn.png">
+		</label>
+		<label class="description">
+			The is a desktop application for car hire. The app can keep record of car the company has ,record for the customers for easy tracking of the car when booked by customer, records of hires made,manager module where the employee and finacial records are recorded. The app has a login for assigned staff to login to system software</label></div>
+		
+	</div>
+	<div class="proj">
+		<h2>Church management system</h2>
+		<div class="projectcont"><label><img class="projectimages" src="images/church/front.png"></label><label class="description">The is a desktop application that keep record of church members,group informations,Tithe and offering records,preacher management.project information.
+		
+		</label></div>
+		
+	</div>
+	<div class="proj">
+		<h2>Eric software solutions code editor</h2>
+		<div class="projectcont"><label>
+			<img class="projectimages" src="images/ess/front.png">
+		</label>
+	<label  class="description">	
+		The is a desktop application and code and text editor. i use it for write codes mostly when you want to understand the concept. i use it when studying a programming language as i will understand what i'm writing. best for beginners 
+		
+	</label>
+	</div>
+	</div>
+	<div class="proj">
+		<h2>Point of sales(POS)</h2>
+		<div class="projectcont"><label>
+			<img class="projectimages" src="images/pos/front.png">
+		</label>
+		<label  class="description">
+			The is a desktop application for shops. The app can keep record of products in the shop.Record  sales made,manager module where the employee and finacial moduale sales records are recorded.cashier module ofr selling products and product recorder module for recording products. The app has a login for assigned staff to login to system software</label></div>
+		
+	</div>
+	
+</div>
+</div>
+<footer>
+<div class="footercontent">
+	<div class="about">
+		<h3>About</h3>
+		<div>
+			<p>The website help you to understand my services where i can assist in by hiring me.</p>
+		</div>
+	</div>
+	<div class="contacts" id="Contacts">
+		<h3>Contacts</h3>
+		<div class="contactslinks">
+			<li><a href="tel:+254707273244"><img src="icons/phone.png" class="icons">+254707273244</a></li>
+			<li><a href="tel:+2547590191813"><img src="icons/phone.png" class="icons">+2547590191813</a></li>
+			<li><a href="mailto:erichichuri2605@gmail.com"><img src="icons/gmail.png" class="icons">erichichuri2605@gmail.com</a></li>
+		</div>
+	</div>
+	<div class="subscribe">
+		<h3>Subscribe</h3>
+		<div>
+			
+			<form>
+				<label>Enter your Email</label>
+				<input type="email" name="email">
+				<button type="">subscribe</button>
+			</form>
+		</div>
+	</div>
+	<div class="socialmedia">
+		<h3>Social media</h3>
+		<div class="socialmedialinks">
+			<li><a href="facebook"><img src="icons/facebook.png" class="icons"></a></li>
+			<li><a href="twitter"><img src="icons/twitter.png" class="icons"></a></li>
+			<li><a href="instagram"><img src="icons/instagram.png" class="icons"></a></li>
+			<li><a href="https://wa.me/c/254707273244"><img src="icons/whatsapp.png" class="icons"></a></li>
+			<li><a href="https://youtu.be/9YG2WClb"><img src="icons/youtube.png" class="icons"></a></li>
+			<li><a href="https://github.com/ericgichuri"><img src="icons/github.png" class="icons"></a></li>
+		</div>
+	</div>		
+</div>
+<p>Developed By::<a href="mailto:erichichuri2605@gmail.com">Eric</a>. &copy2021 </p>
+</footer>
+</body>
+</html>
