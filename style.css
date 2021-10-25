@@ -322,17 +322,18 @@ img.KNEC{
 	height: 90px;
 	}
 	.education{
-		height: 690px;
+		height: 670px;
 	}
 	.education .pri{
-		height: 450px;
+		height: 400px;
 	}
 	.education .sec{
-		height: 450px;
+		height: 400px;
 	}
 	.education .uni{
-		height: 450px;
+		height: 400px;
 	}
+
 }
 
 
@@ -534,7 +535,7 @@ img.KNEC{
 	
 }
 .webdev,.webdes,.softdev,.androiddev{
-	height: 120px;
+	height: 170px;
 	background-color: #000066;
 	margin-left: 10px;
 	margin-right: 5px;
@@ -787,7 +788,7 @@ button#seeform{
 }
 @media(max-width: 700px){
 	.otherprojects{
-		padding-left: 100px;
+		padding-left: 40px;
 	}
 }
 footer{
