@@ -223,14 +223,17 @@ nav .logo label{
 		background-color: darkblue;
 		opacity: 0.7;
 	}
+	.welcome{
+		height: 530px;
+	}
 }
 /*education*/
-
 
 
 .education{
 	height: 480px;
 	background-color: #006600;
+	color: whitesmoke;
 	
 }
 .education .educationcontent{
@@ -319,13 +322,13 @@ img.KNEC{
 	height: 90px;
 	}
 	.education .pri{
-		height: 200px;
+		height: 500px;
 	}
 	.education .sec{
-		height: 200px;
+		height: 500px;
 	}
 	.education .uni{
-		height: 200px;
+		height: 500px;
 	}
 }
 
@@ -467,7 +470,7 @@ img.KNEC{
 
 @media(max-width: 700px){
 	.portifolio{
-		height: 400px;
+		height: 600px;
 		display: block;
 		width: 100%;
 
