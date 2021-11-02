@@ -229,6 +229,9 @@ nav .logo label{
 		top: 300px;
 		left: 30%;
 	}
+	#myimg1{
+		display: none;
+	}
 	.theskills{
 		color: yellow;
 	}
@@ -355,12 +358,15 @@ img.KNEC{
 	}
 	.education .pri{
 		height: 200px;
+		width: 90%;
 	}
 	.education .sec{
 		height: 200px;
+		width: 90%;
 	}
 	.education .uni{
 		height: 200px;
+		width: 90%;
 	}
 
 }
