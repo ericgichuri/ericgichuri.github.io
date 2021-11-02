@@ -135,6 +135,8 @@ nav .logo label{
 }
 .main{
 	background-color: darkgray;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .main h1{
 	color: darkblue;
@@ -152,6 +154,7 @@ nav .logo label{
 }
 .proj{
 	display: inline-block;
+	margin-top: 15px;
 }
 .proj h2{
 	color: deeppink;
@@ -180,6 +183,7 @@ nav .logo label{
 	font-weight: 500;
 	font-family: 'times';
 	font-size: 20px;
+	margin: 10px;
 }
 @media(max-width: 600px){
 	.projectcont{

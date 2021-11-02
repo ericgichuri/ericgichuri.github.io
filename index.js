@@ -67,3 +67,22 @@ function wantsubmit(){
 	alerthire()
 	document.prevent()
 }
+
+
+var i=0;
+var txt="I'm Eric Gichuri";
+var txt1="I'm Web designer, Web developer, Android and software developer."
+var speed=100;
+
+
+
+function type(){
+	
+	document.querySelector('.thenames').innerHTML+=txt.charAt(i);
+	document.querySelector('.theskills').innerHTML+=txt1.charAt(i);
+	i++;
+	setTimeout(type,speed)
+
+}
+type()
+
