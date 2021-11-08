@@ -148,6 +148,7 @@ nav .logo label{
 	align-items: center;
 	color: gold;
 	background-color: #000055;
+	padding: 20px;
 }
 .projectsholder{
 	display: inline-block;
@@ -184,6 +185,7 @@ nav .logo label{
 	font-family: 'times';
 	font-size: 20px;
 	margin: 10px;
+	padding: 20px;
 }
 @media(max-width: 600px){
 	.projectcont{
@@ -193,6 +195,10 @@ nav .logo label{
 		width: 100%;
 
 	}
+	.description{
+		padding: 20px;
+	}
+	
 }
 footer{
 	background-color: #000088;
