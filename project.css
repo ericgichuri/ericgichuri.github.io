@@ -190,6 +190,9 @@ nav .logo label{
 @media(max-width: 700px){
 	.projectcont{
 		display: inline-block;
+		font-size: 14px;
+		font-weight: 500;
+		margin: 10px;
 	}
 	.projectimages{
 		width: 100%;
