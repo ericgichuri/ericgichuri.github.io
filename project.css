@@ -187,9 +187,9 @@ nav .logo label{
 	margin: 10px;
 	padding: 20px;
 }
-@media(max-width: 600px){
+@media(max-width: 700px){
 	.projectcont{
-		display: block;
+		display: inline-block;
 	}
 	.projectimages{
 		width: 100%;
