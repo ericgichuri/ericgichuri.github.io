@@ -570,7 +570,7 @@ img.KNEC{
 	
 }
 .webdev,.webdes,.softdev,.androiddev{
-	height: 170px;
+	height: 190px;
 	background-color: #000066;
 	margin-left: 10px;
 	margin-right: 5px;
@@ -663,6 +663,7 @@ img.KNEC{
 	}
 	.webdescont,.webdevcont,.softdevcont,.androiddevcont{
 		width: 50%;
+		height: 200px;
 		margin-bottom: 10px;
 		display: inline-block;
 		position: relative;
@@ -681,8 +682,8 @@ img.KNEC{
 		height: 40px;
 		visibility: visible;
 		position: absolute;
-		right: -30px;
-		top: 2px;
+		right: -40px;
+		top: 3px;
 	}
 }
 @media(min-width: 700px){
