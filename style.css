@@ -776,6 +776,12 @@ button#seeform{
 	width: 300px;
 	height: 300px;
 }
+@media(max-width: 700px){
+	.projects .projectholder{
+		display: inline-block;
+		overflow-x: hidden;
+	}
+}
 .btnexplore{
 	width: 100px;
 	height: 30px;
