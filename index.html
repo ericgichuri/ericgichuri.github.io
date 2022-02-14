@@ -1,349 +1,466 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eric Portifolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" href="images/esslogos.png" type="image/x-icon">
-	<script type="text/javascript" src="index.js" defer=""></script>
-	<script type="text/javascript">
-		function toprojects() {
-	window.location.href="projects.html"
-}
-	</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/esslogos.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Eric Gichuri | Home</title>
 </head>
-<body id="body" onload="check()">
-<nav>
-<label class="logo"><span>ESS</span><label>eric softwares</label></label>
-<div>
-	<ul id="list">
-		<li><a href="#home" class="active">Home</a></li>
-		<li><a href="#education">Education</a></li>
-		<li><a href="#services">Services</a></li>
-		<li><a href="#portifolio">Portifolio</a></li>
-		<li><a href="#projects">Projects</a></li>
-		<li><a href="#Contacts">Contacts</a></li>
-	</ul>
-</div>
-<div class="menu" id="menu">
-	
-</div>
+<body>
+<nav class="bg-dark">
+    <div class="mynav">
+        <a class="text-uppercase" href="icons/esslogos.png">Logo</a>
+        <h3 class="text-center text-warning textess ml-4">ESS</h3>
+        <ul class="list-unstyled">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="#education">Education</a></li>
+            <li class="list-inline-item"><a href="#skills">Skills</a></li>
+            <li class="list-inline-item"><a href="projects.html">Projects</a></li>
+            <li class="list-inline-item"><a href="#contacts">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menubtn btn">
+        
+    </div>
 </nav>
-
-
-
-<div class="main">
-<div class="welcome" id="Welcome">
-<div class="welcomecontent">
-	<div class="imageholder1">
-		<div class="image">
-			<img src="images/myimges (1).png" class="imgemove">
-		</div>
-	</div>
-<div align="center" class="welcomestate">
-	<h2 style="margin-top: 40px;">Welcome my Portifolio website</h2>
-	<h1 class="thename"><strong class="thenames"></strong></h1>
-	<h2 class="theskills" style="color: black;"></h2>
-	<h3 class="demo1" >Here you can see and view my skills,<br> Hire me as your Tech engineer,<br> services i can offer and projects available.
-		</h3>
-		
-	
+<div class="mycontainer">
+<div class="welcomeinfo container-fluid bg-white">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="row justify-content-center">
+                <h2 class="text-center">Welcome to my portifolio Website</h2>
+            </div>
+            <div class="row justify-content-center">
+                
+                <div class="col-md-4 col-lg-5 col-xl-5 col-sm-5 myimage p-2">
+                    <div class="row justify-content-center">
+                        
+                        <div class="col">
+                            <h2 class="text-dark text-center">
+                                Hi, I'm Eric Gichuri .
+                            </h2>
+                            <img src="images/me.png" alt="" sizes="" srcset="" style="max-height: 300px;max-width: fit-content;">
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="col-md-7 my-4">
+                    
+                    
+                    <h5 class="text-dark text-center">
+                        I'm a web developer, web designer, software developer and android developer
+                    </h5>
+                    <div>
+                        <div class="row justify-content-center">
+                            <img src="icons/logo2.png" height="150" width="150" alt="">
+                        </div>
+                        
+                    </div>
+                    <h5 class="text-center">
+                        See my awesome projects i have developed, hire me, and get my CV <br>
+                        <button class="btnprojects btn btn-warning my-3">Projects</button>
+                        <button class="btnhire btn btn-primary my-3">Hire me</button>
+                        <button class="btncv btn btn-success my-3">Download CV</button>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-	<div class="imageholder" align="left">
-		<div class="image">
-			<img src="images/myphoto.png" id="myimg1">
-		</div>
-	</div>
+<div class="mcontainer-fluid" style="position: relative;">
+    <div class="row justify-content-center"style="position: relative;">
+        <div class="col-md-6 px-4"style="position: relative;">
+            <div id="myModal" class="modal " role="dialog" style="background-color: rgba(0, 0, 0, 0.514);">
+                <div class="modal-dialog bg-dark ">
+              
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title text-center">To Hire me</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Call: +254707273244 / +254759091813</p>
+                      <p>Email: ericgichuri2605@gmail.com</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-success btncall"><img src="icons/call.png" alt="" height="15" width="15"></button>
+                      <button class="btn btn-primary btnemail"><img src="icons/envelop.png" alt="" height="15" width="15"></button>
+                      <button type="button" class="btnclosemodal btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+              
+                </div>
+        </div>
+    </div>
+</div>
+<div class="educationbg container-fluid bg-success py-3" id="education">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h3 class="text-center">My Education Background</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-lg-2 col-xl-2 col-sm-4 col-xs-4 my-2"  style="min-width: 300px; max-width: 400px;">
+                    <div class="card">
+                        <h5 class="text-center">Tertiary</h5>
+                        <div class="row justify-content-center">
+                            <img class=" p-3" src="images/edu.png" alt=""  width="150" height="150">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Murang'a university</h5>
+                            <h6>Bsc computer science</h6>
+                            <p class="card-text">Currently</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 col-sm-4 col-xs-4 my-2" style="min-width: 300px; max-width: 400px;">
+                    <div class="card">
+                        <h5 class="text-center">Secondary</h5>
+                        <div class="row justify-content-center">
+                            <img class=" p-3" src="images/KNEC.png" alt=""  width="150" height="150">
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Tigithi boys</h5>
+                            <h6>Basic knowledge</h6>
+                            <p class="card-text">2015-2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 col-sm-4 col-xs-4 my-2"  style="min-width: 300px; max-width: 400px;">
+                    <div class="card">
+                        <h5 class="text-center">Primary</h5>
+                        <div class="row justify-content-center">
+                            <img class=" p-3" src="images/KNEC.png" alt=""  width="150" height="150">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Tharua primary</h5>
+                            <h6>Start up and discipline</h6>
+                            <p class="card-text">2005-2014</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="text-center">
+                        <h6 class="text-center">
+                            I'm currently persuing bachelor of science in computer science at Murang'a university of technology where i got my basic programming skills and basic networking. 
+                        </h6>
+                        <h6>
+                            Beside institution study i like self study. This have increased my skills to advance the basic skills and come up with awesome applications.  
+                        </h6>
+                        <h6>
+                            i have also done certification in data entry and data analysis at KESAP research center.
+                        </h6>
+                        <h6>
+                            <button class="btncv1 btn btn-primary">Download CV</button>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="skills container-fluid bg-secondary py-4" id="skills">
+<div class="row justify-content-center">
+    <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="col">
+                <h3 class="text-center">My Skills</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-primary font-weight-bold text-right px-3" role="progressbar" style="width: 80%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML 80%</div>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning font-weight-bold text-right px-3" role="progressbar" style="width: 65%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS 65%</div>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-success font-weight-bold text-right px-3" role="progressbar" style="width: 65%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Javascript 65%</div>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-danger font-weight-bold text-right px-3" role="progressbar" style="width: 70%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">PHP 70%</div>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-dark font-weight-bold text-right px-3" role="progressbar" style="width: 65%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Python 65%</div>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-primary font-weight-bold text-right px-3" role="progressbar" style="width: 60%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">VB.net 60%</div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center my-2">
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/html.png" alt="" height="120" width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">It is the basic and Foundation of Website development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/cssbot.png" alt="" height="120" width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS/Bootstrap</h5>
+                        <p class="card-text">CSS help in styling of websites and make pages responsive.</p>
+                    </div>
+                </div>
+            </div>            
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/jsjquery.png" alt="" height="120" width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Javascript/jquery</h5>
+                        <p class="card-text">This help in making website more dynamic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center my-2">
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/php.png" alt="" height="120"  width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">PHP</h5>
+                        <p class="card-text">PHP help in server side scripting on websites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/python2.png" alt="" height="120"  width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">Python helps me in developing GUI desktop application</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 col-lg-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/java.png" alt="" height="120"  width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">I use java for developing android applications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center my-2">
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/vb.png" alt="" height="120" width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">VB.NET</h5>
+                        <p class="card-text">This was my first and fast GUI applications development language</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/sqlmysql.png" alt="" height="120" width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Database MySQL</h5>
+                        <p class="card-text">Database help in developing applications that rely on database</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-3 col-xs-3 col-lg-3 my-1">
+                <div class="card">
+                    <div class="row justify-content-center">
+                        <img class="border p-1" src="images/network.jpeg" alt="" height="120" width="150">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Network</h5>
+                        <p class="card-text">Networking skills, terminating and troubleshooting network problems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h6>These skills help in developing awesome applications  and helps me to develop real projects </h6>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
-<div class="education" id="education">
-	<h2>Education</h2>
-	<p>view my education background</p>
-<div class="educationcontent">
-	<div class="uni">
-		<h4>Bsc. computer science</h4>
-		<img src="images/edu.png" class="KNEC"><br>
-		<label>Murang'a university</label><br>
-		<label class="duration">Currently</label>
-	</div>
-	<div class="sec">
-		<h4>Secondary Education</h4>
-		<img src="images/KNEC.png" class="KNEC"><br>
-		<label>Tigithi boys</label><br>
-		<label class="duration">2014-2018</label>
-	</div>
-	<div class="pri">
-		<h4>Primary Education</h4>
-		<img src="images/KNEC.png" class="KNEC"><br>
-		<label>Tharua primary</label><br>
-		<label class="duration">2005-2013</label>
-	</div>
-</div>
-<div class="eduinfo">
-	<p>I'm currently persuing Bachelor of science in Computer science<br> at Murang'a University of Technology where i have gained some skills. <br>other courses are Data Entry and Analysis .</p>
+<div class="projects container-fluid p-3">
+    <h4 class="text-center">Projects</h4>
+<div class="row justify-content-center">
+    
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 my-3">
+        <div class="card" style="background: orange;">
+            <h5 class="card-title text-center">Image watermark creator</h5>
+            <img class="card-img-top p-2 border" src="images/projectphotos/watermarkapp.png" alt="" height="170">
+            <div class="card-body">
+                <p class="card-text">watermark your product photos and images, converting image into various formats</p>
+                <button class="btn btn-primary btn-sm" id="btnimagewatermark">see more</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 my-3">
+        <div class="card" style="background: orange;">
+            <h5 class="card-title text-center">Church management software</h5>
+            <img class="card-img-top p-2 border" src="images/projectphotos/church_software.png" alt="" height="170">
+            <div class="card-body">
+                <p class="card-text">church management software helps management activities and keeping records</p>
+                <button class="btn btn-primary btn-sm" id="btnchurchsoftware">see more</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 my-3">
+        <div class="card" style="background: orange;">
+            <h5 class="card-title text-center">blog web application</h5>
+            <img class="card-img-top p-2 border" src="images/projectphotos/blog.png" alt="" height="170">
+            <div class="card-body">
+                <p class="card-text">Blog website used by bloggers and content creator to post content or adverts</p>
+                <button class="btn btn-primary btn-sm" id="btnblog">see more</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 my-3">
+        <div class="card" style="background: orange;">
+            <h5 class="card-title text-center">Car rental system</h5>
+            <img class="card-img-top p-2 border" src="images/projectphotos/carrental.png" alt="" height="170">
+            <div class="card-body">
+                <p class="card-text">Car rental software can be used in car hire for management actvities and records</p>
+                <button class="btn btn-primary btn-sm" id="btncarrental">see more</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 my-3">
+        <div class="card" style="background: orange;">
+            <h5 class="card-title text-center">ESS TextEditor</h5>
+            <img class="card-img-top p-2 border" src="images/projectphotos/esseditor.png" alt="" height="170">
+            <div class="card-body">
+                <p class="card-text">A simple texteditor for write codes and can be used by start up to learn</p>
+                <button class="btn btn-primary btn-sm" id="btnesstexteditor">see more</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3 my-3">
+        <h5>
+            These are some of the projects to view my projects click explore
+            
+        </h5>
+        <button class="btnprojects1 btn btn-danger">Explorer to projects</button>
+    </div>
 
 </div>
-<p class="pdownload">Get my Curriculum Vitae(CV) by click download.</p>
-<a href="#"><button class="btndownload">Download</button></a>
-</div>
-
-
-<!--Skilss and portifolio-->
-<div class="portifolio" id="portifolio">
-	<h2>portifolio and Skills</h2>
-	
-	<div class="skills">
-	<div class="web">
-		<h2>Web skills</h2>
-		<p>These are Website development skills</p>
-		<div class="HTML">
-			<div class="HTMLbar">HTML     80%</div>
-		</div>
-		<div class="CSS">
-			<div class="CSSbar">CSS   65%</div>
-		</div>
-		<div class="Javascript">
-			<div class="Javascriptbar">JavaScript  65%</div>
-		</div>
-		<div class="PHP">
-			<div class="PHPbar">PHP  70%</div>
-		</div>
-		<div class="JQuery">
-			<div class="JQuerybar">JQuery 55% </div>
-		</div>
-		<div class="Bootstrap">
-			<div class="Bootstrapbar">Bootstrap  60%</div>
-		</div>
-	</div>
-	<div class="Andsoftwares">
-		<h2>Android and software skills</h2>
-		<p>These are android and software and desktop application skills</p>
-		<div class="Python">
-			<div class="Pythonbar">Python  70%</div>
-		</div>
-		<div class="Java">
-			<div class="Javabar">java  65%</div>
-		</div>
-		<div class="Kortlin">
-			<div class="Kortlinbar">Kortlin  60%</div>
-		</div>
-		<div class="VB">
-			<div class="VBbar">VB.net  65%</div>
-		</div>
-		<div class="C">
-			<div class="Cbar">C++  50%</div>
-		</div>
-	</div>
-	</div>
-</div>
-
-
-
-<!--Services-->
-<div class="Services" id="services">
-	<h2>Services</h2>
-	<h4>Hire me and get services listed below</h4>
-	<div class="serviceslist">
-		<div class="webdev">
-			<div class="webdevcont">
-				<label>Website Development</label>
-				<span class="down1"></span>
-				<div class="webdevcontlist">
-					<li>PHP</li>
-					<li>Angular Js</li>
-					<li>React Js</li>
-				
-				</div>
-				<div class="hiddenimg">
-					<img src="icons/webdev.png" class="hiddenimage">
-				</div>
-			</div>
-		</div>
-		<div class="webdes">
-			<div class="webdescont">
-				<label>Website Design</label>
-				<span class="down2"></span>
-				<div class="webdescontlist">
-					<li>HTML</li>
-					<li>CSS, Bootstrap</li>
-					<li>Javascript, JQuery</li>
-				
-				</div>
-				<div class="hiddenimg">
-					<img src="icons/webdes.png" class="hiddenimage">
-				</div>
-			</div>
-		</div>
-		<div class="softdev">
-			<div class="webdevcont">
-				<label>Software Development</label>
-				<span class="down3"></span>
-				<div class="softdevcontlist">
-					<li>VB.net</li>
-					<li>Python</li>
-					<li>Java</li>
-				
-				</div>
-				<div class="hiddenimg">
-					<img src="icons/softdev.png" class="hiddenimage">
-				</div>
-			</div>
-		</div>
-		<div class="androiddev">
-			<div class="androiddevcont">
-				<label>Android</label>
-				<span class="down4"></span>
-				<div class="androiddevcontlist">
-					<li>Java</li>
-					<li>Kotlin</li>
-				
-				</div>
-				<div class="hiddenimg">
-					<img src="icons/androiddev.png" class="hiddenimage">
-				</div>
-			</div>
-		</div>
-		
-	</div>
-	<button id="seeform" onclick="alerthire()">Hire me</button>
-	<div class="form" >
-		<form id="hireform" onsubmit="wantsubmit()">
-		<p>
-			<label>First name</label>
-			<input type="text" name="fname">
-		</p>
-		<p>
-			<label>Last name</label>
-			<input type="text" name="lname">
-		</p>
-		<p>
-			<label>Email address</label>
-			<input type="email" name="email">
-		</p>
-		<p>
-			<label>Describe the service you want</label>
-			<textarea></textarea>
-		</p>
-			<button>submit</button>
-		</form>
-	</div>
-</div>
-
-<div class="projects" id="projects">
-	<h2>Projects</h2>
-	<p>Get and see my projects</p>
-<div class="projectholder">
-	<div class="project1">
-		<h4>School management software</h4>
-		<div class="imgfirst">
-			<img src="images/school/front.png">
-		</div>
-		
-		<div>
-			<button class="btnexplore" id="explorer1" onclick="toprojects()">See more</button>
-		</div>
-	</div>
-	<div class="project2">
-		<h4>Image watermark creator App</h4>
-		<div class="imgfirst">
-			<img src="images/imagewatermark/icon.png">
-		</div>
-		
-		<div>
-			<button class="btnexplore" id="explorer2" onclick="toprojects()">See more</button>
-		</div>
-	</div>
-	<div class="project3">
-		<h4>car rental management system</h4>
-		<div class="imgfirst">
-			<img src="images/carrental/carwn.png">
-		</div>
-		<div>
-			<button class="btnexplore" onclick="toprojects()">See more</button>
-		</div>
-	</div>
-	<div class="project4">
-		<h4>Eric software code editor</h4>
-		<div class="imgfirst">
-			<img src="images/ess/esstexteditor.png">
-		</div>
-		<div>
-			<button class="btnexplore" onclick="toprojects()">See more</button>
-		</div>
-	</div>
-	<div class="project5">
-		<h4>Church management system</h4>
-		<div class="imgfirst">
-			<img src="images/church/church_software.png">
-		</div>
-		<div>
-			<button class="btnexplore" onclick="toprojects()">See more</button>
-		</div>
-	</div>
-	
-</div>
-<div class="otherprojects">
-		<h4>Other projects</h4>
-		<div class="proj">
-			<li>Ecommerce websites</li>
-			<li>blog websites</li>
-			<li>Bus booking system</li>
-			<li>Point of sale(POS)</li>
-			<li>Guest or Hotel Room booking</li>
-			<li>Hotel management and sales system</li>	
-		</div>
-		<div>
-			<button class="btnexplore" onclick="toprojects()">See more</button>
-		</div>
-	</div>
 </div>
 </div>
-
-
-
-
-<footer>
-<div class="footercontent">
-	<div class="about">
-		<h3>About</h3>
-		<div>
-			<p>The website help you to understand my services where i can assist in by hiring me.</p>
-		</div>
-	</div>
-	<div class="contacts" id="Contacts">
-		<h3>Contacts</h3>
-		<div class="contactslinks">
-			<li><a href="tel:+254707273244"><img src="icons/phone.png" class="icons">+254707273244</a></li>
-			<li><a href="tel:+254759091813"><img src="icons/phone.png" class="icons">+254759091813</a></li>
-			<li><a href="mailto:erichichuri2605@gmail.com"><img src="icons/gmail.png" class="icons">erichichuri2605@gmail.com</a></li>
-		</div>
-	</div>
-	<div class="subscribe">
-		<h3>Subscribe</h3>
-		<div>
-			
-			<form>
-				<label>Enter your Email</label>
-				<input type="email" name="email">
-				<button type="">subscribe</button>
-			</form>
-		</div>
-	</div>
-	<div class="socialmedia">
-		<h3>Social media</h3>
-		<div class="socialmedialinks">
-			<li><a href="https://www.facebook.com/106014587449868/photos/a.106014640783196/631436244907697/?__tn__=%3C"><img src="icons/facebook.png" class="icons"></a></li>
-			<li><a href="https://twitter.com/EGichuri/photo"><img src="icons/twitter.png" class="icons"></a></li>
-			<li><a href="https://instagram/@ericgichuri"><img src="icons/instagram.png" class="icons"></a></li>
-			<li><a href="https://wa.me/c/254707273244"><img src="icons/whatsapp.png" class="icons"></a></li>
-			<li><a href="https://www.youtube.com/channel/UChrnUdYmrdehyz3HcXeYNsg"><img src="icons/youtube.png" class="icons"></a></li>
-			<li><a href="https://github.com/ericgichuri"><img src="icons/github.png" class="icons"></a></li>
-		</div>
-	</div>		
-</div>
-<p>Developed By::<a href="mailto:erichichuri2605@gmail.com">Eric</a>. &copy2021 </p>
+<footer class="bg-dark" id="contacts">
+    <div class="footercontainer container-fluid">
+        <div class="row justify-content-center text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-warning">About</h5>
+                <p class="text-white">
+                    These purpose of this web is to explorer through my projects, hire me for services and get my cv.
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-warning">Services</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Web design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Web development</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Desktop applications</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Android application</a>
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3">
+                <h5 class="text-warning">Contact</h5>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/home.png" height="20" width="20"> Murang'a Kenya</i>
+                </p>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/envelop.png" height="20" width="20"> ericgichuri2605@gmail.com</i>
+                </p>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/call.png" height="20" width="20"> +254 707273244</i>
+                </p>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/call.png" height="20" width="20"> +254 759091813</i>
+                </p>
+            </div>
+        </div>
+        <hr class="mb-3">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+                <p class="text-white text-center">
+                    &copy 2022 Developed By:
+                    <a href="mailto:ericgichuri2605@gmail.com" style="text-decoration:none;"><strong>Eric Gichuri</strong></strong></a>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyleed list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/106014587449868/photos/a.106014640783196/631436244907697/?__tn__=%3C" class="btn-floating btn-xs"><i><img src="icons/facebook.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram/@ericgichuri" class="btn-floating btn-xs"><i><img src="icons/instagram.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/EGichuri/photo" class="btn-floating btn-xs"><i><img src="icons/twitter.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://wa.me/c/254707273244" class="btn-floating btn-xs"><i><img src="icons/whatsapp.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/channel/UChrnUdYmrdehyz3HcXeYNsg" class="btn-floating btn-xs"><i><img src="icons/youtube.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ericgichuri" class="btn-floating btn-xs"><i><img src="icons/github.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

@@ -1,265 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="projects.css">
-	<link rel="shortcut icon" href="images/esslogos.png" type="image/x-icon">
-	<script type="text/javascript" src="projects.js" defer></script>
-	<title>Projects</title>
-	<script type="text/javascript">
-		function askname() {
-			welmsg=document.querySelector(".welmsg")
-			welmg=prompt("Enter your name")
-			if (welmg) {
-				welmsg.innerHTML="Welcome to my projects: "+welmg
-			}else{
-				askname()
-			}
-
-		}
-	</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/esslogos.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Eric Gichuri | projects</title>
 </head>
-<body onload="askname()">
-<nav>
-<label class="logo"><span>ESS</span><label>eric softwares</label></label>
-<div>
-	<ul id="list">
-		<li><a href="index.html" class="active">Home</a></li>
-		<li><a href="index.html#education">Education</a></li>
-		<li><a href="index.html#services">Services</a></li>
-		<li><a href="index.html#portifolio">Portifolio</a></li>
-		<li><a href="index.html#projects">Projects</a></li>
-		<li><a href="index.html#Contacts">Contacts</a></li>
-	</ul>
-</div>
-<div class="menu" id="menu">
-	
-</div>
+<body style="background-color: rgba(115, 166, 243, 0);">
+<nav class="">
+    <div class="mynav">
+        <a class="text-uppercase" href="icons/esslogos.png">Logo</a>
+        <h3 class="text-center text-warning textess ml-4">ESS</h3>
+        <ul class="list-unstyled">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="#education">Education</a></li>
+            <li class="list-inline-item"><a href="#skills">Skills</a></li>
+            <li class="list-inline-item"><a href="projects.html">Projects</a></li>
+            <li class="list-inline-item"><a href="#contacts">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menubtn">
+        <img src="icons/menu.png" height="20" width="20s" alt="">
+    </div>
 </nav>
-<div class="main">
-<div class="intro">
-	<h1 class="welmsg"></h1>
-	<h3>
-		Here you will get my projects and get to under what they contain and how they function.These are not all projects you can also follow me on github to see all projects.Just Explorer to get every feature the project has.
-	</h3>
-	<h3>
-		To request the app just call,Email or message me on my social media at the footer or bottom of the page.
-	</h3>
-</div>
-<div class="projects_holder">
-<div class="project">
-	<div class="projecttitle">
-		<h2>Download my App</h2>
-		<p>click <a href="ericapp.apk">Download</a></p>
-	</div>
-</div>
-<div class="project">
-	<div class="projecttitle">
-		<h1 style="color:deeppink;">Projects</h1>
-		
-	</div>
-</div>
-
-<div class="project">
-	<div class="projecttitle">
-	<h2>Image watermark creator</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#watermarkcreator"><img src="images/imagewatermark/icon.png"></a>
-		<div class="projectdescription">
-		<label>
-			The is a desktop application that enter or creates watermark to images or photos.The app can be used to watermark products for sell mostly for online and ecommerce products by indicating the name and price of the product. The app also converts image to other image formats ie PNG,JPG, GIF and ICO(for icons).
-			It also rotates images to Horizontal flip or vaertical flip, 90deg,180deg,270deg.
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>church management software</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#churchmanagement"><img src="images/church/church_software.png"></a>
-		<div class="projectdescription">
-		<label>
-			The is a desktop application manages and keeps record for the church. it have the following module members module the saves and keeps record for the members, preacher module, offering or Tithe management, projects. it is advanced with clear statistics, groups or choirs management.
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>School Management System</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#schoolmanagement"><img src="images/school/front.png"></a>
-		<div class="projectdescription">
-		<label>
-			The is a desktop application that can be used for school management and record keeping. The software record student details,fees and examination. The app keep record of staff within the school. it is divided into modules. students, staff, examination, Finacial or Fees, store and the ptincipal who is the head of the school. The app has a login that is secure that only assigned staff can login to the software.
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Car rental or Car hire system</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#carrental"><img src="images/carrental/carwn.png"></a>
-		<div class="projectdescription">
-		<label>
-			The is a desktop application for car hire. The app can keep record of car the company has ,record for the customers for easy tracking of the car when booked by customer, records of hires made,manager module where the employee and finacial records are recorded. The app has a login for assigned staff to login to system software.
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Eric software solution Code Editor (ESS editor)</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#ESSTexteditor"><img src="images/ess/esseditor.png"></a>
-		<div class="projectdescription">
-		<label>
-			The is a desktop application code and text editor. Used for writing codes mostly when you want to understand the concept. I use it when studying a programming language as i will understand what i'm writing. best for beginners.It is Easy to use.  
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>E commerce websites</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#ecommerce"><img src="images/ecommerces.png"></a>
-		<div class="projectdescription">
-		<label>
-			E commerce website with a web application for sell and buying products. we develop with admin pages for uploading products and login for admin and users
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Blog site development</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#bloggers"><img src="images/adminblog.png"></a>
-		<div class="projectdescription">
-		<label>
-			web applications for bloggers who advertise products, politics and trending stories. We develop with following modules admin pages for uploading images and text and user landing pages
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Point Of Sales Software (POS)</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#POS"><img src="images/pos/front.png"></a>
-		<div class="projectdescription">
-		<label>
-			The is a desktop application for shops. The app can keep record of products in the shop.Record  sales made,manager module where the employee and finacial moduale sales records are recorded.cashier module ofr selling products and product recorder module for recording products. The app has a login for assigned staff to login to system software.  
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Guest House and Hotel Room Booking</h2>
-	</div>
-	<div class="projectimage">
-		<a href="#hotelbooking"><img src="images/webapp/guestroombooking.png"></a>
-		<div class="projectdescription">
-		<label>
-			This is A Web application for booking rooms in a guesthouse or a hotel. The features are the customer selects a room then fills the form. The user can check his or her booking status edit or arrival date. It has the admin module for updating the database. It is simple to use.<br>Not intergrated with Mpesa.
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Bus booking </h2>
-	</div>
-	<div class="projectimage">
-		<a href="#busbooking"><img src="images/webapp/busbooking.png"></a>
-		<div class="projectdescription">
-		<label>
-			This is A Web application for booking bus seat. Enables the customer to select a specified route for him or her to continue. Before the customer fills the booking form the available seat are displayed. It has admin pay for updating the database. 
-		</label>
-		</div>
-	</div>
-	
-</div>
-<div class="project">
-	<div class="projecttitle">
-	<h2>Other projects:</h2>
-	</div>
-	<div class="projectimage">
-		<div class="projectdescription">
-		<label>
-			View my projects on youtube <a href="https://youtu.be/9YG2WClb"> Youtube</a>
-		</label><br>
-		<label>
-			View my projects on Github <a href="https://github.com/ericgichuri"> github</a>
-		</label>
-		</div>
-	</div>
-	
+<div class="welcomeinfo container-fluid">
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2 class="text-primary text-center">
+            Welcome to my projects
+        </h2>
+        <h5 class="text-center">
+            Here you will get my projects and get to under what they contain and how they function.These are not all projects you can also follow me on github to see all projects.Just Explorer to get every feature the project has.
+            To request the app just call,Email or message me on my social media at the footer or bottom of the page.
+        </h5>
+        <h5 class="text-center text-success">
+            Download My android app here<br>
+            <a href="files/ericapp.apk"><button class="btn btn-primary btn-sm font-weight-bold">download</button></a>
+        </h5>
+    </div>
 </div>
 </div>
+<div class="projects container-fluid">
+<div class="row justify-content-center">
+    
+    <div class="col-md-10 p-3 border border-primary border-3 m-1" id="watermark">
+        <h3 class="text-center font-weight-bold">Image watermark creator</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/projectphotos/watermarkapp.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h6>
+                    The is a desktop application that enter or creates watermark to images or photos.The app can be used to watermark products for sell mostly for online and ecommerce products by indicating the name and price of the product. The app also converts image to other image formats ie PNG,JPG, GIF and ICO(for icons). It also rotates images to Horizontal flip or vaertical flip, 90deg,180deg,270deg.
+        
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10 p-3 border border-primary border-3 m-1" id="churchsoftware">
+        <h3 class="text-center font-weight-bold">Church management software</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/projectphotos/church_software.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h6>
+                    The is a desktop application manages and keeps record for the church. it have the following module members module the saves and keeps record for the members, preacher module, offering or Tithe management, projects. it is advanced with clear statistics, groups or choirs management.
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10 p-3 border border-primary border-3 m-1" id="carrental">
+        <h3 class="text-center font-weight-bold">Car rental/hire system</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/projectphotos/carrental.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h6>
+                    The is a desktop application for car hire. The app can keep record of car the company has ,record for the customers for easy tracking of the car when booked by customer, records of hires made,manager module where the employee and finacial records are recorded. The app has a login for assigned staff to login to system software.
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10 p-3 border border-primary border-3 m-1" id="esstexteditor">
+        <h3 class="text-center font-weight-bold">ESS Texteditor</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/projectphotos/esseditor.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h6>
+                    The is a desktop application code and text editor. Used for writing codes mostly when you want to understand the concept. I use it when studying a programming language as i will understand what i'm writing. best for beginners.It is Easy to use.
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10 p-3 border border-primary border-3 m-1" id="blog">
+        <h3 class="text-center font-weight-bold">Blog website</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/projectphotos/blog.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h6>
+                    web applications for bloggers who advertise products, politics and trending stories. We develop with following modules admin pages  for uploading images and text and awesome users landing pages responsive to all devices
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10 p-3 border border-primary border-3 m-1" id="school">
+        <h3 class="text-center font-weight-bold">School Management System</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/projectphotos/mainschool.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <h6>
+                    The is a desktop application that can be used for school management and record keeping. The software record student details,fees and examination. The app keep record of staff within the school. it is divided into modules. students, staff, examination, Finacial or Fees, store and the ptincipal who is the head of the school. The app has a login that is secure that only assigned staff can login to the software.
+                </h6>
+            </div>
+        </div>
+    </div>
+    
+    
 </div>
-<footer>
-<div class="footercontent">
-	<div class="about">
-		<h3>About</h3>
-		<div>
-			<p>The website help you to understand my services where i can assist in by hiring me.</p>
-		</div>
-	</div>
-	<div class="contacts" id="Contacts">
-		<h3>Contacts</h3>
-		<div class="contactslinks">
-			<li><a href="tel:+254707273244"><img src="icons/phone.png" class="icons">+254707273244</a></li>
-			<li><a href="tel:+254759091813"><img src="icons/phone.png" class="icons">+254759091813</a></li>
-			<li><a href="mailto:erichichuri2605@gmail.com"><img src="icons/gmail.png" class="icons">erichichuri2605@gmail.com</a></li>
-		</div>
-	</div>
-	<div class="subscribe">
-		<h3>Subscribe</h3>
-		<div>
-			
-			<form>
-				<label>Enter your Email</label>
-				<input type="email" name="email">
-				<button type="">subscribe</button>
-			</form>
-		</div>
-	</div>
-	<div class="socialmedia">
-		<h3>Social media</h3>
-		<div class="socialmedialinks">
-			<li><a href="https://www.facebook.com/106014587449868/photos/a.106014640783196/631436244907697/?__tn__=%3C"><img src="icons/facebook.png" class="icons"></a></li>
-			<li><a href="https://twitter.com/EGichuri/photo"><img src="icons/twitter.png" class="icons"></a></li>
-			<li><a href="https://instagram/@ericgichuri"><img src="icons/instagram.png" class="icons"></a></li>
-			<li><a href="https://wa.me/c/254707273244"><img src="icons/whatsapp.png" class="icons"></a></li>
-			<li><a href="https://www.youtube.com/channel/UChrnUdYmrdehyz3HcXeYNsg"><img src="icons/youtube.png" class="icons"></a></li>
-			<li><a href="https://github.com/ericgichuri"><img src="icons/github.png" class="icons"></a></li>
-		</div>
-	</div>		
 </div>
-<p>Developed By::<a href="mailto:erichichuri2605@gmail.com">Eric</a>. &copy2021 </p>
+<footer class="bg-dark" id="contacts">
+    <div class="footercontainer container-fluid">
+        <div class="row justify-content-center text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-warning">About</h5>
+                <p class="text-white">
+                    These purpose of this web is to explorer through my projects, hire me for services and get my cv.
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-warning">Services</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Web design</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Web development</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Desktop applications</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Android application</a>
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3">
+                <h5 class="text-warning">Contact</h5>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/home.png" height="20" width="20"> Murang'a Kenya</i>
+                </p>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/envelop.png" height="20" width="20"> ericgichuri2605@gmail.com</i>
+                </p>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/call.png" height="20" width="20"> +254 707273244</i>
+                </p>
+                <p>
+                    <i class="text-white" style="text-decoration: none;"><img src="icons/call.png" height="20" width="20"> +254 759091813</i>
+                </p>
+            </div>
+        </div>
+        <hr class="mb-3">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <p class="text-white text-right">
+                    &copy 2022 Developed By:
+                    <a href="mailto:ericgichuri2605@gmail.com" style="text-decoration:none;"><strong>Eric Gichuri</strong></strong></a>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyleed list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/106014587449868/photos/a.106014640783196/631436244907697/?__tn__=%3C" class="btn-floating btn-xs"><i><img src="icons/facebook.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram/@ericgichuri" class="btn-floating btn-xs"><i><img src="icons/instagram.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/EGichuri/photo" class="btn-floating btn-xs"><i><img src="icons/twitter.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://wa.me/c/254707273244" class="btn-floating btn-xs"><i><img src="icons/whatsapp.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/channel/UChrnUdYmrdehyz3HcXeYNsg" class="btn-floating btn-xs"><i><img src="icons/youtube.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ericgichuri" class="btn-floating btn-xs"><i><img src="icons/github.png" height="18" width="18" alt=""></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
