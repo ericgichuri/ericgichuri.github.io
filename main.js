@@ -32,20 +32,10 @@ btncv=document.querySelector('.btncv')
 btncv1=document.querySelector('.btncv1')
 
 btncv.addEventListener("click",function(){
-    x=window.open("https://erigichuri.github.io/files/eric cv.pdf")
-    if (x) {
-        window.location.href="https://erigichuri.github.io/"
-    }else{
-        window.location.href="https://erigichuri.github.io/"   
-    }
+    alert("downloading")
 });
 btncv1.addEventListener("click",function(){
-    x=window.open("https://erigichuri.github.io/files/eric cv.pdf")
-    if (x) {
-        window.location.href="https://erigichuri.github.io/"
-    }else{
-        window.location.href="https://erigichuri.github.io/"   
-    }
+    alert("downloading")
 });
 
 
