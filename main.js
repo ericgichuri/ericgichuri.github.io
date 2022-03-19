@@ -32,10 +32,20 @@ btncv=document.querySelector('.btncv')
 btncv1=document.querySelector('.btncv1')
 
 btncv.addEventListener("click",function(){
-    alert('Cv Not available will be uploaded soon.')
+    x=window.open("https://erigichuri.github.io/files/eric cv.pdf")
+    if (x) {
+        window.location.href="https://erigichuri.github.io/"
+    }else{
+        window.location.href="https://erigichuri.github.io/"   
+    }
 });
 btncv1.addEventListener("click",function(){
-    alert('Cv Not available will be uploaded soon.')
+    x=window.open("https://erigichuri.github.io/files/eric cv.pdf")
+    if (x) {
+        window.location.href="https://erigichuri.github.io/"
+    }else{
+        window.location.href="https://erigichuri.github.io/"   
+    }
 });
 
 
