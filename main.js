@@ -2,13 +2,16 @@ $('.menubtn').click(function(){
     $('.mynav ul').toggleClass('show');
     $('.menubtn').toggleClass('showcancel');
 });
-
+var btnericsocial=document.getElementById('btnericsocial');
 var btnwatermark=document.getElementById('btnimagewatermark');
 var btnchurch=document.getElementById('btnchurchsoftware');
 var btnblog=document.getElementById('btnblog');
 var btncarrental=document.getElementById('btncarrental');
 var btnesseditor=document.getElementById('btnesstexteditor');
 
+btnericsocial.addEventListener('click',function(){
+    window.location.href="projects.html#ericsocial";
+})
 btnwatermark.addEventListener('click',function(){
     window.location.href="projects.html#watermark";
 });
