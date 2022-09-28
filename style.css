@@ -157,8 +157,8 @@ h5.card-title{
 .btnchatbot{
     position: fixed;
     z-index: 200;
-    bottom: 5px;
-    right: 10px;
+    bottom: 10px;
+    right: 20px;
     background: rgb(0, 28, 184) !important;
     box-shadow: none !important;
     outline: none;
