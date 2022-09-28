@@ -67,3 +67,50 @@ btncall.addEventListener("click",function(){
 btnemail.addEventListener("click",function(){
     window.open('mailto:ericgichuri2605@gmail.com');
 })
+
+$(".btnchatbot").click(function(){
+    $(".chatcenter").addClass("hidechatcenter")
+    $(".btnchatbot").hide()
+})
+$(".btnclosebot").click(function(){
+    $(".chatcenter").removeClass("hidechatcenter")
+    $(".btnchatbot").show()
+})
+$(".msgbox").keyup(function(e){
+    if($(".msgbox").val()){
+        $(".btnsend").css("display","block")
+    }else{
+        $(".btnsend").css("display","none")
+    }
+    var smsg=ucfirst($(this).val(),true)
+    $(this).val(smsg)
+})
+$(".btnsend").click(function(){
+    var know={
+        "hi":"Hello",
+        "hello":"Hi !",
+        "how are you":"I'm great !",
+        "bye":"Have a nice day !",
+        "morning":"Hey! Morning",
+        "afternoon":"Hey! Afternoon",
+        "evening":"Evening to",
+        "good night":"Good Night to !",
+        "projects":"<a class='text-white' target='_blank' href='projects.html'>click here!</a>",
+        "email":"<a class='text-white' target='_blank' href='mail:ericgichuri2605@gmail.com'>click here to mail</a>",
+        "contact":"<a class='text-white' target='_blank' href='tel:+254707273244'>click here to call</a>",
+        "company":"Eric software solution is my company",
+        "your projects":"<a class='text-white' target='_blank' href='projects.html'>click here!</a>",
+        "thanks":"You are welcome!",
+        "do you teach":"contact <a class='text-white' target='_blank' href='tel:+254707273244'>click here to call</a>"
+    };
+    var usermsg=$(".msgbox").val()
+    $appendusermsg="<div class='messagecontainer'><div class='chat usermsg'>"+usermsg+"</div></div>"
+    $(".chatarea").append($appendusermsg)
+    if(usermsg in know){
+        $(".chatarea").append("<div class='chat essbotmsg'>"+know[usermsg]+"</div>")
+    }else{
+        $(".chatarea").append("<div class='chat essbotmsg'>I don't understand</div>")
+    }
+    $(".msgbox").val("")
+    $(".btnsend").css("display","none")
+})
