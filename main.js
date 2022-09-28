@@ -101,7 +101,22 @@ $(".btnsend").click(function(){
         "company":"Eric software solution is my company",
         "your projects":"<a class='text-white' target='_blank' href='projects.html'>click here!</a>",
         "thanks":"You are welcome!",
-        "do you teach":"contact <a class='text-white' target='_blank' href='tel:+254707273244'>click here to call</a>"
+        "do you teach":"contact <a class='text-white' target='_blank' href='tel:+254707273244'>click here to call</a>",
+        "Hi":"Hello",
+        "Hello":"Hi !",
+        "How are you":"I'm great !",
+        "Bye":"Have a nice day !",
+        "Morning":"Hey! Morning",
+        "Afternoon":"Hey! Afternoon",
+        "Evening":"Evening to",
+        "Good night":"Good Night to !",
+        "Projects":"<a class='text-white' target='_blank' href='projects.html'>click here!</a>",
+        "Email":"<a class='text-white' target='_blank' href='mail:ericgichuri2605@gmail.com'>click here to mail</a>",
+        "Contact":"<a class='text-white' target='_blank' href='tel:+254707273244'>click here to call</a>",
+        "Company":"Eric software solution is my company",
+        "Your projects":"<a class='text-white' target='_blank' href='projects.html'>click here!</a>",
+        "Thanks":"You are welcome!",
+        "Do you teach":"contact <a class='text-white' target='_blank' href='tel:+254707273244'>click here to call</a>"
     };
     var usermsg=$(".msgbox").val()
     $appendusermsg="<div class='messagecontainer'><div class='chat usermsg'>"+usermsg+"</div></div>"

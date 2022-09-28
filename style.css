@@ -165,8 +165,8 @@ h5.card-title{
 }
 .chatcenter{
     position: fixed;
-    bottom: 3px;
-    right: 10px;
+    bottom: 10px;
+    right: 20px;
     z-index: 199;
     width: 260px;
     height: 360px;
