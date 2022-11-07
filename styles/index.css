@@ -1,0 +1,267 @@
+html{
+	scroll-behavior: smooth;
+	transition: 1s;
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	font-family: times;
+}
+.navbar{
+	margin: 0;
+	background: #000088;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.navbar > *{
+	color: #deea00;
+}
+.navholder{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.logo{
+	align-self: center;
+}
+.menubtnhol{
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	background: #000066;
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	cursor: pointer;
+	display: none;
+}
+.menubtnhol img{
+	user-select: none;
+}
+.menu .menulist{
+	padding: 3px;
+	margin: 10px;
+	list-style: none;
+}
+.menulist a{
+	text-decoration: none;
+	color:#deea00 ;
+	transition: 0.5s ease-out;
+	font-weight: 400;
+}
+.menulist a:hover{
+	color: deeppink;
+	border-bottom: 1px solid deeppink;
+
+}
+
+.mynav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 100%;
+    margin-right: 10px;
+    transition: 3s ease-in-out;
+}
+
+img.myphoto{
+	max-height: 400px;
+	max-width: fit-content;
+}
+.btnmenus button{
+	width: 100px;
+}
+.Educationdiv{
+	background: #00b33c;
+	
+}
+.card{
+	margin: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 200px;
+	max-height: 350px;
+}
+.forcareer >*{
+	color: black;
+	font-weight: 450;
+}
+.forcareer > p{
+	margin: 2px;
+	padding: 2px;
+}
+.skillsdiv{
+	background: lightblue;
+	background: rgba(0, 0, 156, 0.2);
+}
+.skillsdiv .progressbarholder{
+	background: transparent;
+}
+.progressbarholder .progresses{
+	width: 100%;
+	margin: 5px;
+}
+.progress-bar{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 15px;
+	font-size: 10px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: 600;
+}
+.htmlbar{
+	background: #1a75ff;
+	width: 85%;
+	text-align: right;
+}
+.cssbar{
+	background: #00b33c;
+	width: 70%;
+}
+.jsbar{
+	background: orange;
+	width: 65%;
+}
+.phpbar{
+	background: red;
+	width: 70%;
+}
+.pythonbar{
+	background: deeppink;
+	width: 75%;
+}
+.myskillsuse .card{
+	max-width: 200px;
+	max-height: 350px;
+	background: rgba(0, 0, 156, 0.2);
+	color: #00004d;
+}
+.myskillsuse .card h6{
+	color: black;
+	font-weight: 500;
+}
+.footer{
+	background: #000088;
+	color:#deea00 ;
+	justify-content: flex-start;
+}
+.footer .socials button{
+	background: #000088;
+}
+.footer a{
+	text-decoration: none;
+	color: #1a75ff;
+	transition: 0.3s;
+	color: whitesmoke;
+}
+.footer  .mlist a{
+	text-decoration: none;
+	color: #1a75ff;
+	transition: 0.3s;
+}
+.footer .mlist a:hover{
+	color: deeppink;
+	border-bottom: 1px solid deeppink;
+}
+.divsocial{
+	display: flex !important;
+	justify-content: flex-end;
+}
+@media(max-width: 800px){
+	.divuslink{
+		text-align: center !important;
+	}
+	.divcont{
+		text-align: center !important;
+	}
+	.divsocial .social{
+		margin-left: auto;
+	}
+	.menubtnhol{
+		display: block;
+		z-index: 100;
+	}
+	.menu{
+		position: absolute;
+		right: -250px;
+		width: 250px;
+		display: block;
+	}
+	.navholder ul{
+		display: none;
+		position: absolute;
+		top: 60px;
+		right: 1px;
+		width: 200px;
+		background: rgba(0, 0, 136, 0.8);
+		z-index: 50;
+		padding: 0;
+		margin: 0;
+	}
+	.navholder ul li{
+		line-height: 35px;
+		width: 100%;
+		padding: 5px;
+		border-bottom: 1px solid rgb(220, 230, 0);
+	}
+	.navholder ul li a{
+		width: 100%;
+		text-align: center;
+		border: none;
+	}
+	.navholder ul li a:hover{
+		border-bottom: none;
+	}
+	.navbar ul.show{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+@media(max-width: 670px){
+	
+}
+.projectsdiv{
+	background: rgba(220, 230, 0, 0.2);
+}
+.projectsdiv .card{
+	width: 250px;
+	/*background: #ffa64d;*/
+	background: #dce600;
+	max-width: 250px;
+	max-height: 400px;
+}
+.projectsdiv .card img{
+	width: 220px;
+	position: relative;
+	height: 150px;
+	background: #dce600;
+}
+.btnseemore{
+	background: #000088;
+	color: rgb(220, 230, 0);
+	box-shadow: none !important;
+}
+.socials .btn{
+	box-shadow: none !important;
+	outline: none !important;
+	margin: 0;
+	padding: 1px;
+}
+.btncall{
+	background: #008800;
+}
+.btnemail{
+	background: #000088;
+}
