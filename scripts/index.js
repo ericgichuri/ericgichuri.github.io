@@ -15,9 +15,9 @@ $(document).ready(function(){
 	$(".btnseemore").click(function(){
 		var pid=$(this).attr("data")
 		if(pid==6){
-			window.location.href="Projects.html"
+			window.location.href="projects.html"
 		}else{
-			window.location.href="Projects.html#"+pid
+			window.location.href="projects.html#"+pid
 		}
 	})
 	$(".btnblog").click(function(){
@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$("#myModal").show()
 	})
 	$(".btnprojects").click(function(){
-		window.location.href="Projects.html"
+		window.location.href="projects.html"
 	})
 	$(".btnclosemodal").click(function(){
 		$("#myModal").hide()
