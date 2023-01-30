@@ -26,7 +26,7 @@ $(document).ready(function(){
 		alert("services soon")
 	})
 	$(".btngetcv").click(function(){
-		window.open("files/eric cv.pdf")
+		window.open("files/ERIC GICHURI MUCHIRI CV.pdff")
 	})
 	$(".btnhire").click(function(){
 		$("#myModal").show()
