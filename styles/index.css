@@ -82,9 +82,15 @@ img.myphoto{
 .btnmenus button{
 	width: 100px;
 }
+.subcontainer1{
+	background: rgba(0, 165, 230, 0.2);
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
+}
 .Educationdiv{
-	background: #00b33c;
-	
+	background: rgba(0, 165, 230, 0.2);
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
 }
 .card{
 	margin: 6px;
@@ -102,8 +108,9 @@ img.myphoto{
 	padding: 2px;
 }
 .skillsdiv{
-	background: lightblue;
-	background: rgba(0, 0, 156, 0.2);
+	background: rgba(0, 165, 230, 0.2);
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
 }
 .skillsdiv .progressbarholder{
 	background: transparent;
@@ -122,7 +129,7 @@ img.myphoto{
 	font-weight: 600;
 }
 .htmlbar{
-	background: #1a75ff;
+	background: #000088;
 	width: 85%;
 	text-align: right;
 }
@@ -135,7 +142,7 @@ img.myphoto{
 	width: 65%;
 }
 .phpbar{
-	background: red;
+	background: #0000ff;
 	width: 70%;
 }
 .pythonbar{
@@ -157,28 +164,7 @@ img.myphoto{
 	color:#deea00 ;
 	justify-content: flex-start;
 }
-.footer .socials button{
-	background: #000088;
-}
-.footer a{
-	text-decoration: none;
-	color: #1a75ff;
-	transition: 0.3s;
-	color: whitesmoke;
-}
-.footer  .mlist a{
-	text-decoration: none;
-	color: #1a75ff;
-	transition: 0.3s;
-}
-.footer .mlist a:hover{
-	color: deeppink;
-	border-bottom: 1px solid deeppink;
-}
-.divsocial{
-	display: flex !important;
-	justify-content: flex-end;
-}
+
 @media(max-width: 800px){
 	.divuslink{
 		text-align: center !important;
@@ -235,7 +221,9 @@ img.myphoto{
 	
 }
 .projectsdiv{
-	background: rgba(220, 230, 0, 0.2);
+	background: rgba(0, 165, 230, 0.2);
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
 }
 .projectsdiv .card{
 	width: 250px;
@@ -279,4 +267,88 @@ img.myphoto{
 	color: rgba(220, 230, 0, 1.0);
 	flex-direction: column;
 	font-family: 'Bullpen 3D';
+}
+.techinfo{
+	padding: 2px;
+	margin: 1px;
+	background: white;
+}
+.hlang{
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+.plang{
+	font-size: 12px;
+}
+.projectinfo{
+	padding: 2px;
+	margin: 1px;
+	background:white;
+	min-height: 150px;
+	height: 150px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.projectname{
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+	margin: 0;
+	margin-right: 2px;
+	text-decoration: underline;
+}
+.projectdescription{
+	font-size: 13px;
+	margin: 0;
+}
+.animator{
+	display: flex;
+}
+.btnlink{
+	font-size: 13px;
+	cursor: pointer;
+	color: #000088;
+	margin: 0;
+	text-align: right;
+	margin-right: 2px;
+	text-decoration: underline;
+}
+.btnlink:hover{
+	text-decoration: underline;
+}
+.servicesdiv{
+	background: rgba(0, 165, 230, 0.2);
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
+}
+.servicecent{
+	border-radius: 10px;
+	border:1px solid white;
+	padding: 10px;
+}
+.bar{
+	height: 100%;
+	width: 3px;
+	background: #000088;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+.contdiv p{
+	text-justify: initial;
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	text-align: left;
+}
+.footer .btn-sm{
+	background: #000088;
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+	margin-right: 1px;
+}
+
+.footer a{
+	color: whitesmoke;
 }
