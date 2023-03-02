@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" href="styles/bootstrap-icons/bootstrap-icons.css">
 	<script type="text/javascript" src="gsap-public/minified/gsap.min.js"></script>
 </head>
 <body>
@@ -21,14 +22,13 @@
 
 <div class="navbar">
 	<div class="navholder px-1">
-        <img src="images/ESSLOGO.png" height="40" width="40">
-        <h6 class="mr-auto ml-2">Eric Gichuri</h6>
+        <h5 class="mr-auto ml-2">Eric Gichuri</h5>
         <ul class="list-unstyled text-center ml-auto">
             <li class="menulist1 list-inline-item"><a href="">Home</a></li>
-						<li class="menulist1 list-inline-item"><a href="javaScript:void(0)">Services</a></li>
-						<li class="menulist1 list-inline-item"><a href="projects.html">Projects</a></li>
-						<li class="menulist1 list-inline-item"><a href="javaScript:void(0)">Blog</a></li>
-						<li class="menulist1 list-inline-item"><a href="#contact">Contact</a></li>
+			<li class="menulist1 list-inline-item"><a href="javaScript:void(0)">Services</a></li>
+			<li class="menulist1 list-inline-item"><a href="projects.html">Projects</a></li>
+			<li class="menulist1 list-inline-item"><a href="javaScript:void(0)">Blog</a></li>
+			<li class="menulist1 list-inline-item"><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <div class="menubtnhol" data="hidden"><img src="icons/menubtn.png" height="18" width="18"></div>
@@ -46,16 +46,25 @@
 			
 		</div>
 		<div class="col-md-6">
-			<h4 class="text-center">I'm <u>W</u>eb developer, <u>W</u>eb designer, <u>S</u>oftware developer and <u>A</u>ndroid developer</h4>
+			<h4 class="text-center">I'm <u>W</u>eb developer, <u>W</u>eb designer, <u>S</u>oftware developer</h4>
 			<div class="d-flex justify-content-center align-items-center">
 				<img src="images/dowhatyoulike.png" height="100" width="250">
 			</div>
-			<h5 class="text-center">You can interact with me. See my projects i have developed, Hire me  and Get my CV</h5>
+			<h5 class="text-center">You can interact with me, read about my education background, skills i use in software development, dozens of projects i have developed and ongoing, Hire me as your Tech and Get my CV</h5>
 			<div class="btnmenus d-flex justify-content-center">
 				<button class="btn btn-sm btn-primary btnblog m-1">Blog</button>
 				<button class="btn btn-sm btn-warning btnhire m-1">Hire</button>
 				<button class="btn btn-sm btn-dark btnprojects m-1">Projects</button>
 				<button class="btn btn-sm btn-success btngetcv m-1">Get CV</button>
+			</div>
+			<div class="d-flex justify-content-center mt-2">
+				<label class="mx-2">Socials: </label>
+				<div>
+					<a href="https://github/ericgichuri"><span class="mr-1 bi bi-github text-dark"></span></a>
+					<a href="https://twitter.com/Egichuri"><span class="mr-1 bi bi-twitter text-dark"></span></a>
+					<a href="https://fb.me/ericsoftwaresolutions"><span class="mr-1 bi bi-facebook text-dark"></span></a>
+					<a href=""><span class="mr-1 bi bi-linkedin text-dark"></span></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -367,29 +376,17 @@
 		<div class="col-md-4">
 			<h5 class="text-center">Contact</h5>
 			<div class="d-flex justify-content-center align-items-center flex-column contdiv">
-				<div class="d-flex flex-row justify-content-center align-items-center">
-					<div class="rounded-circle">
-						<img src="icons/mail.png" height="16" width="16">
-					</div>
-					<p>ericgichuri2605@gmail.com</p>
+				<div class="d-flex flex-row justify-content-left align-items-center">
+					<p class="text-left"><span class="bi bi-envelope-fill mr-1"></span>ericgichuri2605@gmail.com</p>
 				</div>
-				<div class="d-flex flex-row justify-content-center align-items-center">
-					<div class="rounded-circle">
-						<img src="icons/phone.png" height="16" width="16">
-					</div>
-					<p>+254707273244</p>
+				<div class="d-flex flex-row justify-content-left align-items-center">
+					<p class="text-left"><span class="bi bi-telephone-fill mr-1"></span>+254707273244</p>
 				</div>
-				<div class="d-flex flex-row justify-content-center align-items-center">
-					<div class="rounded-circle">
-						<img src="icons/phone.png" height="16" width="16">
-					</div>
-					<p>+254759091813</p>
+				<div class="d-flex flex-row justify-content-left align-items-center">
+					<p class="text-left"><span class="bi bi-telephone-fill mr-1"></span>+254759091813</p>
 				</div>
-				<div class="d-flex flex-row justify-content-center align-items-center">
-					<div class="rounded-circle">
-						<img src="icons/home.png" height="16" width="16">
-					</div>
-					<p>Murang'a Kenya</p>
+				<div class="d-flex flex-row justify-content-left align-items-center">
+					<p class="text-left"><span class="bi bi-house-fill mr-1"></span>Murang'a Kenya</p>
 				</div>
 			</div>
 		</div>
@@ -407,12 +404,13 @@
 	<div class="row justify-content-center align-items-center">
 		<div class="col-md-7 py-2">
 			<div class="d-flex justify-content-center">
-				<a href="https://fb.me/ericsoftwaresolutions"><button class="btn btn-sm"><img src="icons/facebook.png" height="18" width="18"></button></a>
-				<a href="https://instagram/@ericgichuri"><button class="btn btn-sm"><img src="icons/instagram.png" height="18" width="18"></button></a>
-				<a href="https://twitter.com/EGichuri/photo"><button class="btn btn-sm"><img src="icons/twitter.png" height="18" width="18"></button></a>
-				<a href="https://wa.me/c/254707273244"><button class="btn btn-sm"><img src="icons/whatsapp.png" height="18" width="18"></button></a>
-				<a href="https://www.youtube.com/channel/UChrnUdYmrdehyz3HcXeYNsg"><button class="btn btn-sm"><img src="icons/youtube.png" height="18" width="18"></button></a>
-				<a href="https://github.com/ericgichuri"><button class="btn btn-sm"><img src="icons/github.png" height="18" width="18"></button></a>
+				<a href="https://fb.me/ericsoftwaresolutions"><button class="btn btn-sm bi bi-facebook"></button></a>
+				<a href="https://instagram/@ericgichuri"><button class="btn btn-sm bi bi-instagram"></button></a>
+				<a href="https://twitter.com/EGichuri/photo"><button class="btn btn-sm bi bi-twitter"></button></a>
+				<a href="https://wa.me/c/254707273244"><button class="btn btn-sm bi bi-whatsapp"></button></a>
+				<a href="https://www.youtube.com/channel/UChrnUdYmrdehyz3HcXeYNsg"><button class="btn btn-sm bi bi-youtube"></button></a>
+				<a href="https://github.com/ericgichuri"><button class="btn btn-sm bi bi-github"></button></a>
+				<a href="https://github.com/ericgichuri"><button class="btn btn-sm bi bi-linkedin"></button></a>
 			</div>
 		</div>
 	</div>
@@ -436,9 +434,9 @@
           		<p>Email: ericgichuri2605@gmail.com</p>
         	</div>
         	<div class="modal-footer">
-          		<button class="btn btn-sm btncall"><img src="icons/phone.png" alt="" height="15" width="15"></button>
-          		<button class="btn btn-sm btnemail"><img src="icons/mail.png" alt="" height="15" width="15"></button>
-          		<button type="button" class="btnclosemodal btn btn-danger" data-dismiss="modal">Close</button>
+          		<button class="btn btn-sm btncall bi bi-telephone-fill text-white"></button>
+          		<button class="btn btn-sm btnemail bi bi-envelope-fill text-white"></button>
+          		<button type="button" class="btnclosemodal btn btn-sm btn-danger" data-dismiss="modal">Close</button>
         	</div>
       	</div>
   

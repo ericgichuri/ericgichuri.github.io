@@ -18,7 +18,7 @@ body{
 	position: relative;
 }
 .navbar > *{
-	color: #deea00;
+	color: #dee600;
 }
 .navholder{
 	width: 100%;
@@ -149,8 +149,15 @@ body{
 	box-shadow: none !important;
 	border: none !important;
 	margin-right: 1px;
+	color: #dce600;
 }
 
 .footer a{
 	color: whitesmoke;
+}
+.bi{
+	font-size: 14px;
+}
+.badge-info{
+	background-color: #000088 !important;
 }
