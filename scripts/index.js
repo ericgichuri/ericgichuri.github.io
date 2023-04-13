@@ -16,7 +16,7 @@ $(document).ready(function(){
 	})
 	$(".btnlink").click(function(){
 		var pid=$(this).attr("data")
-		if(pid==6){
+		if(pid=="all"){
 			window.location.href="projects.html"
 		}else{
 			window.location.href="projects.html#"+pid
