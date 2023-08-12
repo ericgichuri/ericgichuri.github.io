@@ -131,7 +131,7 @@ ul{
 	text-align: center;
 }
 .intro_div .intro_div_info p.first_p{
-	font-size: 20px !important;
+	font-size: 19px !important;
 	font-weight: 600;
 }
 @media screen and (max-width:750px){
@@ -142,6 +142,7 @@ ul{
 @media screen and (max-width:500px){
 	.intro_div_info p{
 		font-size: 14px !important;
+		font-weight: 50;
 	}
 }
 .connect_div a{
@@ -641,8 +642,8 @@ ul{
 }
 .intro_div_info h4[data-scroll="out"]{
 	opacity: 0;
-	transform: scale(2);
-	transform: translateX(40px);
+	transform: scale(0);
+	transform: translateX(10px);
 }
 .intro_div_info p[data-scroll="in"]{
 	opacity: 1;
@@ -651,7 +652,7 @@ ul{
 }
 .intro_div_info p[data-scroll="out"]{
 	opacity: 0;
-	transform: translateX(-40px);
+	transform: translateX(-10px);
 	transform: scale(0);
 }
 .career_path_div p[data-scroll="in"]{
@@ -660,14 +661,13 @@ ul{
 }
 .career_path_div p[data-scroll="out"]{
 	opacity: 0;
-	transform: scale(2);
+	transform: scale(0);
 }
 .skills_explanation label[data-scroll="in"]{
 	opacity: 1;
 	transform: translateY(0px);
 }
 .skills_explanation label[data-scroll="out"]{
-	
 	opacity: 0;
 	transform: translateY(40px);
 }
@@ -676,7 +676,6 @@ ul{
 	transform: translateY(0px);
 }
 .services_div li[data-scroll="out"]{
-	
 	opacity: 0;
 	transform: translateY(40px);
 }
