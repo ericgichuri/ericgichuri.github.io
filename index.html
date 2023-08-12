@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/eric.jpg">
 	<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="icons/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
@@ -59,9 +60,9 @@
 		<div class="d-flex justify-content-center align-items-center flex-column">
 			<div class="py-3">
 				<button class="btn btn-sm btn-primary">Blog</button>
-				<button class="btn btn-sm btn-warning">Hire Me</button>
-				<button class="btn btn-sm btn-dark">Projects</button>
-				<button class="btn btn-sm btn-success">Get CV</button>
+				<button class="btn btn-sm btn-warning btn_hire">Hire Me</button>
+				<button class="btn btn-sm btn-dark btn_projects">Projects</button>
+				<button class="btn btn-sm btn-success btn_cv">Get CV</button>
 			</div>
 			<div class="connect_div mt-4">
 				<a href="https://github.com/ericgichuri"><span class="fab fa-github"></span></a>
@@ -124,7 +125,7 @@
 		
 		<div class="d-flex justify-content-center align-items-center mt-3">
 			<div>
-				<button class="btn btn-sm btn-success">Download CV</button>
+				<button class="btn btn-sm btn-success btn_cv">Download CV</button>
 			</div>
 		</div>
 	</div>
@@ -368,6 +369,28 @@
 	<div class="developer mt-2">
 		<p>Developer: <a href="mailto:ericgichuri2605@gmail.com">Eric Gichuri</a></p>
 	</div>
+</div>
+<!--modal-->
+<div id="myModal" class="modal " role="dialog" style="background-color: rgba(0, 0, 0, 0.514);">
+    <div class="modal-dialog modal-dialog-centered">
+  
+      <!-- Modal content-->
+        <div class="modal-content">
+        	<div class="modal-header">
+          		<h4 class="modal-title text-center">To Hire me</h4>
+        	</div>
+        	<div class="modal-body">
+          		<p>Call: +254707273244 OR +254759091813</p>
+          		<p>Email: ericgichuri2605@gmail.com</p>
+        	</div>
+        	<div class="modal-footer">
+          		<button class="btn btn-sm btncall fa fa-phone text-white"></button>
+          		<button class="btn btn-sm btnemail fa fa-envelope text-white"></button>
+          		<button type="button" class="btnclosemodal btn btn-sm btn-danger" data-dismiss="modal">Close</button>
+        	</div>
+      	</div>
+  
+    </div>
 </div>
 <script type="text/javascript" src="scripts/index.js"></script>
 </body>
