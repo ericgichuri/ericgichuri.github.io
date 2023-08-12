@@ -453,6 +453,7 @@ ul{
 	grid-template-columns: repeat(1, minmax(200px,200px));
 	align-items: center;
 	justify-content: center;
+	overflow-x: auto;
 }
 .testimonials_holder .testimonials_in{
 	width: 100%;

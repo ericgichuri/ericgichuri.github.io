@@ -5,7 +5,7 @@ $(document).ready(function(){
 	})
 	ScrollOut({
 		targets:".career_path_div p,.skills_explanation label,.services_div li,.intro_div_info h4,.intro_div_info p,.skill_div",
-		threshold:.4
+		threshold:.6
 	})
 	$(".btn_cv").click(function(){
 		window.open("files/ERIC GICHURI MUCHIRI CV.pdf")
