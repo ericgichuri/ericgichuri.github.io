@@ -450,7 +450,7 @@ ul{
 .testimonials_holder{
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(2, minmax(200px,200px));
+	grid-template-columns: repeat(1, minmax(200px,200px));
 	align-items: center;
 	justify-content: center;
 }

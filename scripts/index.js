@@ -25,4 +25,7 @@ $(document).ready(function(){
 	$(".btnemail").click(function(){
 		window.open("mailto:ericgichuri2605@gmail.com")
 	})
+	$(".btn_readmore").click(function(){
+		window.open("projects.html")
+	})
 })
