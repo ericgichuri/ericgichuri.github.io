@@ -485,6 +485,32 @@ ul{
 .testmonial_text:before,.testmonial_text:after{
 	content: '"';
 }
+.article_div{
+	width: 100%;
+	padding-block: 10px 10px;
+}
+.article_div h4{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'helvetica';
+	font-style: oblique;
+	text-transform: capitalize;
+	color: #000088;
+}
+.article_holder{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	overflow-x: auto;
+}
+.article_holder .article_in{
+	width: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+}
 .footer{
 	width: 100%;
 	background-color: #000000;
@@ -630,6 +656,10 @@ ul{
 	}
 	.testimonials_div{
 		padding-inline: 5px 5px;
+	}
+	.article_div .article_holder{
+		display: grid;
+		grid-template-columns: 1fr;
 	}
 }
 [data-scroll]{
