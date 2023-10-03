@@ -505,6 +505,8 @@ ul{
 	align-items: center;
 	justify-content: center;
 	overflow-x: auto;
+	gap: 10PX;
+	padding: 10px;
 }
 .article_holder .article_in{
 	width: 100%;
