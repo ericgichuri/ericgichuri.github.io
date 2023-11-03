@@ -98,6 +98,10 @@ ul{
 		right: 0px;
 	}
 }
+.intro_h3{
+	text-align: center;
+	color: #000088;
+}
 .intro_div{
 	min-height: 100vh;
 	width: 100%;
@@ -106,6 +110,10 @@ ul{
 	background-position: center;
 	background-repeat: no-repeat;
 	border-bottom: 1px solid #000088;
+}
+.intro_holder{
+	display: flex;
+	grid-template-columns: 1fr 1fr;
 }
 .intro_div .intro_div_info{
 	background-color: rgba(255, 255, 255, 0.88);
@@ -125,13 +133,13 @@ ul{
 	color: #000088;
 }
 .intro_div .intro_div_info p{
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 450;
 	font-family: times;
 	text-align: center;
 }
 .intro_div .intro_div_info p.first_p{
-	font-size: 19px !important;
+	font-size: 16px !important;
 	font-weight: 600;
 }
 @media screen and (max-width:750px){
