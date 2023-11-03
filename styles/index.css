@@ -115,6 +115,12 @@ ul{
 	display: flex;
 	grid-template-columns: 1fr 1fr;
 }
+.intro_holder_image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .intro_div .intro_div_info{
 	background-color: rgba(255, 255, 255, 0.88);
 	height: 100%;
@@ -131,26 +137,40 @@ ul{
 	font-style: oblique;
 	text-transform: capitalize;
 	color: #000088;
+	padding-block: 0px;
+	margin-block: 0px;
 }
 .intro_div .intro_div_info p{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 450;
 	font-family: times;
 	text-align: center;
+	margin-block: 0px;
 }
 .intro_div .intro_div_info p.first_p{
-	font-size: 16px !important;
+	font-size: 15px !important;
 	font-weight: 600;
 }
+.intro_buttons button{
+	font-size: 11px !important;
+	width: 60px;
+}
 @media screen and (max-width:750px){
+	.intro_holder{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 	.intro_div .intro_div_info{
 		padding-inline: 10px 10px;
+	}
+	.intro_holder_image img{
+		width: 100%;
+		object-fit: contain;
 	}
 }
 @media screen and (max-width:500px){
 	.intro_div_info p{
-		font-size: 14px !important;
-		font-weight: 50;
+		font-size: 12px !important;
 	}
 }
 .connect_div a{
