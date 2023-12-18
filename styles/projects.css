@@ -6,7 +6,7 @@ body{
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
-	font-family: times;
+	
 }
 ul{
 	list-style: none;
@@ -229,4 +229,12 @@ ul{
 }
 .badge-info{
 	background-color: #000088 !important;
+}
+p{
+	font-family: times;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: times;
+	color: #000088;
+	font-weight: 450;
 }
