@@ -26,6 +26,12 @@ $(document).ready(function(){
 		window.open("mailto:ericgichuri2605@gmail.com")
 	})
 	$(".btn_readmore").click(function(){
-		window.open("projects.html")
+		action=$(this).attr("data-action")
+		if(action){
+			window.open(action)
+		}else{
+			window.open("projects.html")	
+		}
+		
 	})
 })
