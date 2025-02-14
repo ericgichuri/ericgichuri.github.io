@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-	window.location.href="https://www.ericgichuri.co.ke"
+	//window.location.href="https://www.ericgichuri.co.ke"
 	$(".menu_button").click(function(){
 		$(".menu_holder").toggleClass("show")
 		$(".menu_button span").toggleClass("fa-window-close fa-bars")
