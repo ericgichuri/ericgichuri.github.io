@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #0B1C8C;
+  --accent-color: #FF3B3F;
+
+  --bg-color: #F6F7FB;
+  --card-color: #FFFFFF;
+
+  --text-color: #1F2937;
+  --text-light: #6B7280;
+
+  --border-color: #E5E7EB;
+}
+
+.dark {
+  --primary-color: #4F6BFF;
+  --accent-color: #FF5A5F;
+
+  --bg-color: #0F172A;
+  --card-color: #1E293B;
+
+  --text-color: #F1F5F9;
+  --text-light: #94A3B8;
+
+  --border-color: #334155;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 0px;
+}
+nav {
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
