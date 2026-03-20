@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Eric Gichuri - Full Stack Developer & Software Developer</title>
+    <meta name="description" content="Portfolio of Eric Gichuri, a Computer Science graduate and Full Stack Developer specialized in Python, PHP, and modern web solutions like MRentKenya and ESS EDUSYSTEM.">
+    <meta name="keywords" content="Eric Gichuri, Software Engineer Kenya, Full Stack Developer, Python Developer, PHP Developer, Web Design Nairobi">
+    <meta name="author" content="Eric Gichuri">
+
+    <meta property="og:title" content="Eric Gichuri - Portfolio">
+    <meta property="og:description" content="Building scalable web and desktop applications. Explore my projects including MRentKenya and AI Attendance systems.">
+    <meta property="og:image" content="assets/images/IMG_9667.jpg"> <meta property="og:url" content="https://ericgichuri.github.io/">
+    <link rel="icon" type="image/jpg" href="assets/images/IMG_9667.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#navbar").load("components/navbar.html");
+            $("#cta-section").load("components/cta-section.html")
+            $("#footer").load("components/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <section class="pt-10 pb-12 bg-[var(--bg-color)] text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-2xl md:text-3xl font-bold text-[var(--primary-color)]">Solutions I <span class="text-[var(--accent-color)]">Provide</span></h1>
+            <p class="mt-4 text-[var(--text-light)]">I combine technical expertise with a deep understanding of business logic to build software that works for you.</p>
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+            
+            <div class="p-8 bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl hover:border-[var(--primary-color)] transition-all group">
+                <div class="w-14 h-14 bg-[var(--primary-color)]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[var(--primary-color)] transition-colors">
+                    <i class="fa-solid fa-code text-2xl text-[var(--primary-color)] group-hover:text-white"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Web Development</h3>
+                <p class="text-sm text-[var(--text-light)] leading-relaxed">Building dynamic, responsive websites and e-commerce platforms using PHP, Python (Flask), and modern CSS frameworks.</p>
+                <ul class="mt-6 space-y-2 text-xs font-semibold text-[var(--text-color)]">
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> Custom E-commerce</li>
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> Real Estate Platforms</li>
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> API Integrations</li>
+                </ul>
+            </div>
+
+            <div class="p-8 bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl hover:border-[var(--primary-color)] transition-all group">
+                <div class="w-14 h-14 bg-[var(--primary-color)]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[var(--primary-color)] transition-colors">
+                    <i class="fa-solid fa-desktop text-2xl text-[var(--primary-color)] group-hover:text-white"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Desktop Applications</h3>
+                <p class="text-sm text-[var(--text-light)] leading-relaxed">Developing robust, standalone software for Windows/Linux focused on management systems and process automation.</p>
+                <ul class="mt-6 space-y-2 text-xs font-semibold text-[var(--text-color)]">
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> School/Church MIS</li>
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> POS & Inventory Tools</li>
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> CustomTkinter UIs</li>
+                </ul>
+            </div>
+
+            <div class="p-8 bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl hover:border-[var(--primary-color)] transition-all group">
+                <div class="w-14 h-14 bg-[var(--primary-color)]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[var(--primary-color)] transition-colors">
+                    <i class="fa-solid fa-brain text-2xl text-[var(--primary-color)] group-hover:text-white"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">AI & Data Analysis</h3>
+                <p class="text-sm text-[var(--text-light)] leading-relaxed">Leveraging computer vision for attendance and using statistical tools (SPSS/STATA) for deep data insights.</p>
+                <ul class="mt-6 space-y-2 text-xs font-semibold text-[var(--text-color)]">
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> Facial Recognition</li>
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> Statistical Analysis</li>
+                    <li><i class="fa-solid fa-check text-[var(--accent-color)] mr-2"></i> Database Optimization</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section id="cta-section"></section>
+    <div id="footer"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>

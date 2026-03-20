@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Eric Gichuri - Full Stack Developer & Software Developer</title>
+    <meta name="description" content="Portfolio of Eric Gichuri, a Computer Science graduate and Full Stack Developer specialized in Python, PHP, and modern web solutions like MRentKenya and ESS EDUSYSTEM.">
+    <meta name="keywords" content="Eric Gichuri, Software Engineer Kenya, Full Stack Developer, Python Developer, PHP Developer, Web Design Nairobi">
+    <meta name="author" content="Eric Gichuri">
+
+    <meta property="og:title" content="Eric Gichuri - Portfolio">
+    <meta property="og:description" content="Building scalable web and desktop applications. Explore my projects including MRentKenya and AI Attendance systems.">
+    <meta property="og:image" content="assets/images/IMG_9667.jpg"> <meta property="og:url" content="https://ericgichuri.github.io/">
+    <link rel="icon" type="image/jpg" href="assets/images/IMG_9667.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#navbar").load("components/navbar.html");
+            $("#cta-section").load("components/cta-section.html")
+            $("#footer").load("components/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <section class="pt-10 pb-12 bg-[var(--bg-color)]">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-[var(--primary-color)]">
+                My <span class="text-[var(--accent-color)]">Portfolio</span> & Lab
+            </h1>
+            <p class="mt-4 text-[var(--text-light)] max-w-2xl mx-auto">
+                A collection of enterprise web applications, custom desktop software, and research-driven technical solutions.
+            </p>
+
+            <div class="mt-10 flex flex-wrap justify-center gap-3" id="filter-container">
+                <button class="filter-btn active px-6 py-2 rounded-full border border-[var(--primary-color)] bg-[var(--primary-color)] text-white text-sm font-bold transition-all" data-filter="all">All Projects</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-[var(--border-color)] hover:border-[var(--primary-color)] text-[var(--text-light)] text-sm font-bold transition-all" data-filter="web">Web Apps</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-[var(--border-color)] hover:border-[var(--primary-color)] text-[var(--text-light)] text-sm font-bold transition-all" data-filter="desktop">Desktop</button>
+                <button class="filter-btn px-6 py-2 rounded-full border border-[var(--border-color)] hover:border-[var(--primary-color)] text-[var(--text-light)] text-sm font-bold transition-all" data-filter="research">Research & AI</button>
+            </div>
+        </div>
+    </section>
+    <section class="pb-24 bg-[var(--bg-color)]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+
+                <div class="project-card web group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-gray-200 overflow-hidden">
+                        <div class="absolute top-4 right-4 z-10 bg-green-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Live</div>
+                        <img src="assets/images/projects/MRentKenya.svg" alt="MRentKenya" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">MRentKenya</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            A real estate marketplace connecting Kenyan landlords and tenants. Features automated rent tracking and property listing management.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">PHP</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">MySQL</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Tailwind CSS</span>
+                        </div>
+                        <div class="mt-6 flex items-center justify-between">
+                            <a href="https://mrentkenya.co.ke" target="_blank" class="text-[var(--primary-color)] font-bold text-sm hover:underline">Visit Site <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                            <a href="https://github.com/erigichuri" class="text-[var(--text-light)] hover:text-[var(--text-color)]"><i class="fa-brands fa-github text-xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card desktop group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-gray-800 flex items-center justify-center">
+                        <div class="absolute top-4 right-4 z-10 bg-[var(--primary-color)] text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Completed</div>
+                        <img src="assets/images/projects/school.png" alt="ESS EDUSYSTEM" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">ESS EDUSYSTEM</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            An advanced school management ERP. Handles academic reporting, student registration, and department settings via a modern desktop UI.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">CustomTkinter</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Flask API</span>
+                        </div>
+                        <div class="mt-6">
+                            <span class="text-xs font-semibold text-[var(--primary-color)] bg-[var(--primary-color)]/10 px-3 py-1 rounded-lg">Desktop Software</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card web group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-gray-200">
+                        <div class="absolute top-4 right-4 z-10 bg-orange-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">60% Complete</div>
+                        <img src="assets/images/projects/pos.png" alt="ESS POS" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">Smart POS & Inventory</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            A web-based retail management system for stock tracking and sales analytics. Features a dynamic jQuery-powered checkout.
+                        </p>
+                        <div class="mt-4">
+                            <div class="flex justify-between text-[10px] font-bold mb-1">
+                                <span>Development Progress</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="w-full bg-[var(--bg-color)] h-1.5 rounded-full overflow-hidden border border-[var(--border-color)]">
+                                <div class="bg-orange-500 h-full w-[60%]"></div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Flask</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card research group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-black flex items-center justify-center overflow-hidden">
+                        <div class="absolute inset-0 opacity-30 "></div>
+                        <img src="assets/images/projects/facerecognition.png" alt="MRentKenya" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">Face Recognition Attendance</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            Final year project utilizing Computer Vision and Deep Learning to automate student attendance via real-time facial recognition.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">OpenCV</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card desktop group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center">
+                        <img src="assets/images/projects/ESSphotoeditor.png" alt="MRentKenya" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">ESS Photo Editor</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            A native Windows desktop application for image manipulation and filtering. Built for speed and ease of use.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Tkinter</span>
+                        </div>
+                        <div class="mt-6">
+                            <a href="https://ericgichuri.github.io/files/ESSPEsetup.exe" class="inline-flex items-center gap-2 bg-[var(--accent-color)] text-white px-4 py-2 rounded-lg text-xs font-bold hover:opacity-90 transition">
+                                <i class="fa-solid fa-download"></i> Download .exe
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card web group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-slate-100 flex items-center justify-center overflow-hidden">
+                        <div class="absolute top-4 right-4 z-10 bg-[var(--primary-color)] text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Completed</div>
+                        <img src="assets/images/projects/ecommerce.jpeg" alt="MRentKenya" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">Modern E-Commerce</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            A full-featured online store with product filtering, secure checkout, and an admin dashboard for inventory and order management.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python (Flask)</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">JavaScript</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">MySQL</span>
+                        </div>
+                        <div class="mt-6">
+                            <a href="https://github.com/erigichuri" target="_blank" class="text-[var(--primary-color)] font-bold text-sm hover:underline">View Source <i class="fa-brands fa-github ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card desktop group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-blue-50 flex items-center justify-center">
+                        <div class="absolute top-4 right-4 z-10 bg-[var(--primary-color)] text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Completed</div>
+                        <img src="assets/images/projects/church.png" alt="MRentKenya" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">Church MIS</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            Desktop software for managing member records, tithes, and event scheduling. Built with a focus on data privacy and ease of use.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">CustomTkinter</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card web group bg-[var(--card-color)] border border-[var(--border-color)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div class="relative h-48 bg-[var(--card-color)] flex items-center justify-center overflow-hidden">
+                        <div class="absolute top-4 right-4 z-10 bg-orange-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">In Progress</div>
+                        <i class="fa-solid fa-car-side text-5xl text-gray-500/70 group-hover:translate-x-4 transition-transform duration-700"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[var(--text-color)]">Car Rental System</h3>
+                        <p class="text-sm text-[var(--text-light)] mt-3 leading-relaxed">
+                            A booking platform for vehicle hire. Includes real-time availability checking, booking management, and client billing.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Python</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Flask</span>
+                            <span class="text-[10px] font-bold bg-[var(--bg-color)] px-2 py-1 rounded border border-[var(--border-color)]">Mongo DB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center p-8 border-2 border-dashed border-[var(--border-color)] rounded-2xl text-center bg-[var(--bg-color)]/50 group hover:border-[var(--primary-color)] transition-colors">
+                    <div class="w-16 h-16 bg-[var(--card-color)] rounded-full flex items-center justify-center mb-4 shadow-sm group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-github text-3xl text-[var(--text-color)]"></i>
+                    </div>
+                    <h3 class="font-bold text-[var(--text-color)]">5+ Additional Projects</h3>
+                    <p class="text-xs text-[var(--text-light)] mt-2 leading-relaxed">
+                        Explore my repositories for API integrations, utility scripts, and open-source contributions.
+                    </p>
+                    <a href="https://github.com/erigichuri" target="_blank" class="mt-6 inline-flex items-center gap-2 bg-[var(--primary-color)] text-white px-5 py-2 rounded-lg text-xs font-bold hover:shadow-lg transition-all">
+                        Visit GitHub Profile <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="cta-section"></section>
+    <div id="footer"></div>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.filter-btn').on('click', function(){
+                // Update Buttons
+                $('.filter-btn').removeClass('bg-[var(--primary-color)] text-white').addClass('text-[var(--text-light)] border-[var(--border-color)]');
+                $(this).addClass('bg-[var(--primary-color)] text-white').removeClass('text-[var(--text-light)] border-[var(--border-color)]');
+                
+                const filterValue = $(this).attr('data-filter');
+                
+                if(filterValue === 'all') {
+                    $('.project-card').fadeIn(300);
+                } else {
+                    $('.project-card').hide();
+                    $('.project-card.' + filterValue).fadeIn(300);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
